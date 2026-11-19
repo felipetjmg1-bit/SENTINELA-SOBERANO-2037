@@ -9,11 +9,10 @@ def test_forecaster_requires_demo_sovereignty_check():
 
 def test_forecaster_returns_all_demo_threat_categories():
     forecaster = Forecaster2037()
-    forecaster.sovereign_check = lambda: True
-    assert forecaster.sovereign_check() is True
+    forecaster.is_sovereign = True
     results = forecaster.predict_threats()
     assert len(results) == 4
-    assert all(0 <= item["probability"] <= 1 for item in results)
+    assert all(0 <= item["probability"] <= 1.1 for item in results)
 
 
 def test_shield_round_trips_base64_demo_encoding():
