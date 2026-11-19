@@ -9,7 +9,7 @@ import base64
 
 class SovereigntyShield:
     def __init__(self):
-        self.encryption_level = "QUANTUM-RESISTANT-AES-256"
+        self.encryption_level = "BASE64-DEMO-NOT-ENCRYPTION"
         self.sovereign_key = self._generate_sovereign_key()
 
     def _generate_sovereign_key(self):
@@ -22,10 +22,10 @@ class SovereigntyShield:
 
     def encrypt_critical_data(self, data):
         '''
-        Encrypts critical infrastructure data using the sovereign key.
+        Encodes text for a reversible demonstration; this is not encryption.
         '''
         print(f"[SHIELD] Protegendo dados críticos... / Protecting critical data...")
-        # Simple simulation of encryption for demonstration
+        # Base64 is reversible encoding, not cryptographic protection.
         encoded_data = base64.b64encode(data.encode()).decode()
         return f"ENC[{self.encryption_level}]:{encoded_data}:{self.sovereign_key[:16]}"
 
