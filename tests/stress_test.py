@@ -43,8 +43,8 @@ def simulate_quantum_attack():
     print("\n--- RESULTADOS DO TESTE DE ESTRESSE / STRESS TEST RESULTS ---")
     print(f"Duração da Simulação / Simulation Duration: {duration:.4f}s")
     print(f"Tentativas de Quebra / Break Attempts: {total_attempts}")
-    print(f"Taxa de Sucesso do Ataque / Attack Success Rate: 0.0000%")
-    print("[STATUS] ESCUDO DE SOBERANIA INVIOLÁVEL. / SOVEREIGNTY SHIELD UNBREACHABLE.")
+    print("Taxa de sucesso: NÃO MEDIDA (loop sem tentativa criptográfica)")
+    print("[STATUS] Demonstração de fluxo concluída; nenhuma resistência criptográfica foi testada.")
 
 if __name__ == "__main__":
     simulate_quantum_attack()
