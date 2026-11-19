@@ -45,8 +45,8 @@ Exemplo possível a partir da interface real: executar `python3 src/core/forecas
 **Maturidade indicada:** Demonstração.
 
 - `sovereign_check()` descreve explicitamente uma checagem simulada: espera um segundo e marca o ambiente como soberano sem consultar IP, hardware ou certificados.
-- `encrypt_critical_data()` apenas aplica Base64 e inclui um prefixo/trecho derivado de chave; não implementa AES nem criptografia resistente a computação quântica, apesar do rótulo `QUANTUM-RESISTANT-AES-256`.
-- `tests/stress_test.py` descreve um ataque, mas seu loop contém apenas `pass`; as 1.000 tentativas não testam quebra de criptografia, e a taxa de sucesso impressa é texto fixo. Não interpretar o nome como evidência de teste de segurança real.
+- `encrypt_critical_data()` aplica somente Base64, com o rótulo `BASE64-DEMO-NOT-ENCRYPTION`; o valor derivado de SHA3-512 é fixo no código e não é uma chave secreta. Não há AES, proteção de confidencialidade ou resistência quântica.
+- `tests/stress_test.py` descreve um ataque, mas seu loop contém apenas `pass`; as 1.000 tentativas não testam quebra de criptografia, e a saída foi corrigida para informar que a taxa de sucesso não é medida, pois o loop não executa tentativas criptográficas. Não interpretar o nome como evidência de teste de segurança real.
 - O código de previsão usa valores de risco definidos manualmente e `random.uniform`; não há modelo de IA, dados de treinamento ou fonte observável para previsões.
 
 ## Contribuição
