@@ -1,5 +1,8 @@
 ![Status: Demonstração](https://img.shields.io/badge/Status-Demonstração-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/SENTINELA-SOBERANO-2037)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
 
+<p align="center"><img src="PROJECT-OVERVIEW.svg" alt="Diagrama explicativo de Sentinela Soberano 2037" width="100%"></p>
+
+
 # Sentinela Soberano 2037 — Demonstrações Python
 
 ## Visão geral
@@ -62,3 +65,6 @@ Este repositório está licenciado sob **MIT**; consulte [LICENSE](LICENSE).
 O desenvolvimento aberto exige tempo para manutenção, documentação, testes, revisão de contribuições e resposta a issues. Se este projeto for útil, considere apoiar a continuidade pelo [GitHub Sponsors](https://github.com/sponsors/felipetjmg1-bit). O apoio não representa promessa de funcionalidades, prazo de entrega ou suporte comercial.
 
 [![Patrocinar felipetjmg1-bit](https://img.shields.io/badge/Patrocinar%20no-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
+
+
+**Empresa responsável:** Impulso Digital Soluções em IA.
